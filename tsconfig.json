@@ -3,10 +3,24 @@
     /* Basic options */
     "target": "esnext",
     "module": "esnext",
-    "lib": ["esnext", "dom"],
-    "outDir": "./dist",
-    "rootDir": "./src",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx", // enable JSX
+
+    /* Paths */
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
 
     /* Extra checks */
     "noImplicitAny": true,
@@ -17,18 +31,11 @@
     "noImplicitThis": true,
     "alwaysStrict": true,
 
-    /* Module resolution */
-    "esModuleInterop": true,
-    "resolveJsonModule": true,
-
     /* Lint checks */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-
-    /* Source map */
-    "sourceMap": true,
 
     /* Experimental options */
     "experimentalDecorators": true,
@@ -38,6 +45,6 @@
     "strictPropertyInitialization": true,
     "useUnknownInCatchVariables": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
