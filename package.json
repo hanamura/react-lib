@@ -1,0 +1,9 @@
+{
+  "name": "typescript-lib-sample",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
