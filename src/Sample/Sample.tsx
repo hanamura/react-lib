@@ -2,6 +2,6 @@ interface Props {
   text: string
 }
 
-export const Component = ({ text }: Props) => {
+export const Sample = ({ text }: Props) => {
   return <div style={{ color: 'red' }}>{text}</div>
 }
