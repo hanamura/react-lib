@@ -1,7 +1,9 @@
+import styles from './Sample.module.css'
+
 interface Props {
   text: string
 }
 
 export const Sample = ({ text }: Props) => {
-  return <div style={{ color: 'red' }}>{text}</div>
+  return <div className={styles.root}>{text}</div>
 }
