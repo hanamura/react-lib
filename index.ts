@@ -1,1 +1,1 @@
-export * from './src/Sample'
+export * from './next.js/src/lib/Sample'
