@@ -1,5 +1,5 @@
 {
-  "name": "typescript-libs",
+  "name": "@hanamura/react-lib-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
