@@ -1,1 +1,1 @@
-# typescript-lib-sample
+# react-lib
